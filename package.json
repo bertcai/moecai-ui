@@ -1,0 +1,13 @@
+{
+  "name": "moecai-ui",
+  "version": "1.0.0",
+  "description": "一个Vue UI 组件库",
+  "main": "index.js",
+  "repository": "git@github.com:bertcai/moecai-ui.git",
+  "author": "bert_cai <bert_cai@163.com>",
+  "license": "MIT",
+  "keywords": ["vue", "ui"],
+  "bugs": {
+    "url": "https://github.com/bertcai/moecai-ui/issues"
+  }
+}
