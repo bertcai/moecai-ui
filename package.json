@@ -15,5 +15,8 @@
   },
   "dependencies": {
     "vue": "^2.6.10"
+  },
+  "devDependencies": {
+    "parcel": "^1.12.3"
   }
 }
