@@ -6,8 +6,14 @@
   "repository": "git@github.com:bertcai/moecai-ui.git",
   "author": "bert_cai <bert_cai@163.com>",
   "license": "MIT",
-  "keywords": ["vue", "ui"],
+  "keywords": [
+    "vue",
+    "ui"
+  ],
   "bugs": {
     "url": "https://github.com/bertcai/moecai-ui/issues"
+  },
+  "dependencies": {
+    "vue": "^2.6.10"
   }
 }
