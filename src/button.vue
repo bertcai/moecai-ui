@@ -1,8 +1,6 @@
 <template>
     <button class="g-button" :class="{[`icon-${iconPosition}`]:true}">
-        <svg v-if="icon" class="icon" aria-hidden="true">
-            <use :xlink:href="`#i-${icon}`"></use>
-        </svg>
+        <g-icon v-if="icon" :name="icon"></g-icon>
         <div class="content">
             <slot></slot>
         </div>
@@ -11,6 +9,7 @@
 <script>
     export default {
         // props: ['icon', 'iconPosition']
+        name: 'g-button',
         props: {
             icon: {},
             iconPosition: {
@@ -23,7 +22,7 @@
         }
     }
 </script>
-<style lang="scss">
+<style lang="scss" scoped>
     .g-button {
         height: var(--button-height);
         font-size: var(--font-size);
