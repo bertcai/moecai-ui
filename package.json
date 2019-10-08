@@ -14,6 +14,8 @@
     "url": "https://github.com/bertcai/moecai-ui/issues"
   },
   "dependencies": {
+    "git-open": "^2.1.0",
+    "global": "^4.4.0",
     "vue": "^2.6.10",
     "vue-hot-reload-api": "^2.3.4"
   },
