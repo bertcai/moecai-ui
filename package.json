@@ -22,12 +22,13 @@
   "devDependencies": {
     "@vue/component-compiler-utils": "^3.0.0",
     "chai": "^4.2.0",
+    "chai-spies": "^1.0.0",
     "parcel-bundler": "^1.12.3",
     "sass": "^1.22.12",
     "vue-template-compiler": "^2.6.10"
   },
   "scripts": {
-    "dev": "parcel index.html",
+    "dev": "parcel index.html --no-cache",
     "build": "parcel build index.html"
   },
   "alias": {
